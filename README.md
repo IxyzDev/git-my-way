@@ -43,6 +43,12 @@ git config --global user.name "Tu Nombre"
 git config --global user.email "tu@email.com"
 ```
 
+Inicializar la rama principal siempre como main
+
+```bash
+git config --global init.defaultBranch main
+```
+
 ## Comandos Básicos de Git
 
 - `git init`: Inicializa un nuevo repositorio local.
@@ -63,12 +69,6 @@ git config --global user.email "tu@email.com"
 - `git fetch <nombre-remoto>`: Obtiene los cambios del repositorio remoto sin fusionarlos.
 
 ## Algunos alias
-
-Inicializar la rama principal siempre como main
-
-```bash
-git config --global init.defaultBranch main
-```
 
 Una forma mas comoda de trabajar con git log
 
