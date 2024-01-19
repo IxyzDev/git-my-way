@@ -64,6 +64,7 @@ git config --global init.defaultBranch main
 ## Colaboración y Repositorios Remotos
 
 - `git remote add <nombre> <url>`: Agrega un repositorio remoto.
+- `git checkout -b <nombre> origin/<nombre>`: Crea una rama a partir de una rama del repositorio remoto
 - `git push <nombre-remoto> <rama-local>`: Envía tus commits al repositorio remoto.
 - `git pull <nombre-remoto> <rama-remota>`: Obtiene los cambios del repositorio remoto.
 - `git fetch <nombre-remoto>`: Obtiene los cambios del repositorio remoto sin fusionarlos.
